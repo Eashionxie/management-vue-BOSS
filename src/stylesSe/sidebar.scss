@@ -1,0 +1,15 @@
+/* 解决滚动条问题 self */
+.scrollbar-wrapper {
+  overflow-y: auto;
+  .el-scrollbar__view {
+    height: auto;
+  }
+  .el-submenu__title i {
+    right: 30px;
+  }
+}
+
+/* 横向sidebar self */
+.horizontalSe {
+
+}

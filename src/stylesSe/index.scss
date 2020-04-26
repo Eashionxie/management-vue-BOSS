@@ -1,0 +1,65 @@
+@import './bgBox.scss';
+@import './border.scss';
+@import './buju.scss';
+@import './color.scss';
+@import './common.scss';
+@import './element.scss';
+@import './font.scss';
+@import './height.scss';
+@import './mpa.scss';
+@import './pxStyle.scss';
+@import './remStyle.scss';
+@import './sidebar.scss';
+@import '../assets/font_icon/iconfont.css';
+@import '../assets/font_add/iconfont.css';
+@import '../assets/font_hovers/iconfont.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  color: #333333;
+  font-size: 14px;
+}
+
+ul, li, ol {
+  list-style: none;
+}
+
+input, button, img {
+  outline: none;
+  border: none;
+}
+
+/* 去掉数字书输入框标识 */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+#app {
+  height: 100%;
+}
+
+a, a:focus, a:hover {
+  cursor: pointer;
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+
+div:focus, a:active {
+  outline: none;
+}

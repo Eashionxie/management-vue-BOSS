@@ -1,0 +1,88 @@
+/* 工具栏 */
+.topTool {
+  min-height: 43px;
+  line-height: 32px;
+  border-bottom: 1px solid #dddddd;
+  overflow: hidden;
+  .name {
+
+  }
+  .el-input {
+    width: 250px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .el-range-editor {
+    width: 300px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .el-button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.topTool.medium {
+  .el-input {
+    width: 150px;
+  }
+  .el-range-editor {
+    width: 250px;
+  }
+}
+
+.topTool.small {
+  .el-input {
+    width: 120px;
+  }
+  .el-range-editor {
+    width: 220px;
+  }
+}
+
+/* table */
+.listSe {
+
+}
+
+/* table 无表头 */
+.listSe.noHeader {
+  .el-table__header-wrapper {
+    display: none;
+  }
+}
+
+/* table 居中 */
+.listSe.tac {
+  tr, td, th {
+    text-align: center;
+  }
+}
+
+/* table title */
+.listSe.title {
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+  > span {
+    padding: 0px 20px;
+  }
+}
+
+/* 弹层 */
+.dialogSe {
+
+}
+
+/* 表单 */
+.formSe {
+  // .el-select {
+  //   display: block;
+  //   width: 100%;
+  // }
+  // .el-date-editor {
+  //   display: block;
+  //   width: 100%;
+  // }
+}

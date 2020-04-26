@@ -1,0 +1,78 @@
+/* box阴影 */
+.BS { // 上阴影
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, .2);
+}
+
+.BST { // 下阴影
+  box-shadow: -2px -2px 12px rgba(0, 0, 0, .2);
+}
+
+.BSEle { // element阴影
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .2);
+}
+
+.BSA { // 全阴影
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, .2),
+  -2px -2px 12px rgba(0, 0, 0, .2),
+  2px -2px 12px rgba(0, 0, 0, .2),
+  -2px 2px 12px rgba(0, 0, 0, .2);
+}
+
+/* border */
+.bor_B {
+  border-bottom: 1px solid #dddddd;
+}
+
+.bor_R {
+  border-right: 1px solid #dddddd;
+}
+
+.bor_T {
+  border-top: 1px solid #dddddd;
+}
+
+.bor_L {
+  border-left: 1px solid #dddddd;
+}
+
+.bor_TS + .bor_TS { // 循环使用
+  border-top: 1px solid #dddddd;
+}
+
+.border {
+  border: 1px solid #dddddd;
+}
+
+.borderBl {
+  border: 1px solid #457bc7;
+  background-color: #ffffff;
+  color: #457bc7;
+}
+
+.borderLs {
+  border: 1px solid #00cc99;
+  background-color: #ffffff;
+  color: #00cc99;
+}
+
+.borderYe {
+  border: 1px solid #e5e46e;
+  background-color: #ffffff;
+  color: #e5e46e;
+}
+
+.borderJs {
+  border: 1px solid #fabd05;
+  background-color: #ffffff;
+  color: #fabd05;
+}
+
+.borderFe {
+  border: 1px solid #fe6367;
+  background-color: #ffffff;
+  color: #fe6367;
+}
+
+.borderNo {
+  border: none !important;
+}

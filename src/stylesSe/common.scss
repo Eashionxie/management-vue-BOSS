@@ -1,0 +1,122 @@
+/* 滚动条 */
+.scrollY {
+  overflow-y: auto;
+}
+
+/* 滚动条 整体 */
+.scrollY::-webkit-scrollbar {
+  width: 10px; // 高宽分别对应横竖滚动条的尺寸
+  height: 1px;
+}
+
+/* 滚动条 滑块 */
+.scrollY::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: rgba(8, 252, 254, 0.7);
+}
+
+/* 滚动条 轨道 */
+.scrollY::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px rgb(96, 126, 239);
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* 滚动条 默认 */
+.scrollYA {
+  overflow-y: auto;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+.over {
+  overflow: hidden;
+}
+
+/* 浮动 */
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.tal {
+  text-align: left;
+}
+
+.tac {
+  text-align: center;
+}
+
+.tar {
+  text-align: right;
+}
+
+.dB {
+  display: block;
+  width: 100%;
+}
+
+.dIb {
+  display: inline-block !important;
+}
+
+.dN {
+  display: none;
+}
+
+.zIndex {
+  z-index: 100 !important;
+}
+
+.zIndexH {
+  z-index: 9999 !important;
+}
+
+/* 圆 */
+.circle {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* 鼠标 */
+.cursorPoin {
+  cursor: pointer;
+}
+
+/* 换行 */
+.breakAll {
+  word-break: break-all;
+}
+
+/* 旋转动画 */
+.loopXz {
+  animation: loopXzAn 5s linear infinite;
+}
+
+@keyframes loopXzAn {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+/* 景深3d */
+.preserve3d {
+  transform-style: preserve-3d;
+  // perspective: 1000px;
+}
